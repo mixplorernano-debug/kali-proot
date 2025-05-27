@@ -8,10 +8,8 @@ W="$(printf '\033[1;37m')"
 
 banner() {
 clear
-printf "\033[33m       █▄▀ ▄▀█ █░░ █   █▀▄▀█ █▀█ █▀▄\033[0m\n"
-printf "\033[36m       █░█ █▀█ █▄▄ █   █░▀░█ █▄█ █▄▀ \033[0m\n"
-printf "\033[32m   A modded gui of kali\033[0m\n"
-printf "\033[32m   Code by @sabamdarif \033[0m\n"
+printf "\033[33m █▄▀ ▄▀█ █░░ █ \033[0m\n"
+printf "\033[36m █░█ █▀█ █▄▄ █  \033[0m\n"
 
 }
 
@@ -145,7 +143,7 @@ install_rootfs() {
         echo -e "\n${R} [${W}-${R}]${G} Error Installing Distro !\n"${W}
         exit 0
     fi
-    wget https://raw.githubusercontent.com/sabamdarif/modded-kali/main/builder/gui.sh
+    wget https://raw.githubusercontent.com/sabamdarif/kali-proot/main/builder/gui.sh
     if [[ -e "$PREFIX/var/lib/proot-distro/installed-rootfs/kali/root/gui.sh" ]]; then
         rm $PREFIX/var/lib/proot-distro/installed-rootfs/kali/root/gui.sh
         mv gui.sh $PREFIX/var/lib/proot-distro/installed-rootfs/kali/root/gui.sh
@@ -180,7 +178,7 @@ finish() {
         chmod +x $PREFIX/bin/kali
         termux-reload-settings
     fi
-    wget -O $HOME/remove-kali.sh https://raw.githubusercontent.com/sabamdarif/modded-kali/main/remove.sh
+    wget -O $HOME/remove-kali.sh https://raw.githubusercontent.com/sabamdarif/kali-proot/main/remove.sh
     proot-distro login kali -- /bin/bash -c "mv /usr/sbin/telinit /usr/sbin/telinit.bak"
     proot-distro login kali -- /bin/bash -c "ln -s /usr/bin/true /usr/sbin/telinit"
 }

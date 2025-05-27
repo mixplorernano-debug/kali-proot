@@ -10,10 +10,8 @@ user=$(whoami)
 
 function banner() {
 clear
-printf "\033[33m       █▄▀ ▄▀█ █░░ █   █▀▄▀█ █▀█ █▀▄\033[0m\n"
-printf "\033[36m       █░█ █▀█ █▄▄ █   █░▀░█ █▄█ █▄▀ \033[0m\n"
-printf "\033[32m code by @sabamdrif \033[0m\n"
-printf "\033[32m subscribe my YouTube Channel Hello Android \033[0m\n"
+printf "\033[33m  █▄▀ ▄▀█ █░░ █ \033[0m\n"
+printf "\033[36m  █░█ █▀█ █▄▄ █  \033[0m\n"
 
 }
 
@@ -81,8 +79,8 @@ function app_menu() {
 	mkdir -p ~/.config/rofi
         rofi -dump-config > ~/.config/rofi/config.rasi
 	cd ~
-	wget https://raw.githubusercontent.com/sabamdarif/modded-kali/main/image/application-menu.png
-	wget https://raw.githubusercontent.com/sabamdarif/modded-kali/main/setup/style.rasi
+	wget https://raw.githubusercontent.com/sabamdarif/kali-proot/main/image/application-menu.png
+	wget https://raw.githubusercontent.com/sabamdarif/kali-proot/main/setup/style.rasi
 	mv style.rasi application-menu.png ~/.config/rofi
 cat <<EOF > "/home/${user}/.config/rofi/launcher.sh"
 #!/usr/bin/env bash
@@ -151,7 +149,7 @@ function setup_edex() {
 	banner
 	cd ~
         wget https://github.com/GitSquared/edex-ui/releases/download/v2.2.8/eDEX-UI-Linux-arm64.AppImage
-	wget https://raw.githubusercontent.com/sabamdarif/modded-kali/main/image/edex_ui.png
+	wget https://raw.githubusercontent.com/sabamdarif/kali-proot/main/image/edex_ui.png
 	mv eDEX-UI-Linux-arm64.AppImage /home/${user}/.local/share/applications/
 	mv edex_ui.png /home/${user}/.local/share/applications/
 	    cat <<EOF > "/home/${user}/.local/share/applications/edex-ui.desktop"

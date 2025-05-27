@@ -8,10 +8,9 @@ C="$(printf '\033[1;36m')"
 
 banner() {
 clear
-printf "\033[33m       █▄▀ ▄▀█ █░░ █   █▀▄▀█ █▀█ █▀▄\033[0m\n"
-printf "\033[36m       █░█ █▀█ █▄▄ █   █░▀░█ █▄█ █▄▀ \033[0m\n"
-printf "\033[32m   A modded gui of kali\033[0m\n"
-printf "\033[32m   Code by @sabamdarif \033[0m\n"
+printf "\033[33m █▄▀ ▄▀█ █░░ █ \033[0m\n"
+printf "\033[36m █░█ █▀█ █▄▄ █  \033[0m\n"
+
 
 }
 
@@ -224,7 +223,7 @@ xfce_mode() {
     echo "export PULSE_SERVER=127.0.0.1" >> /etc/profile
     source /etc/profile
     cd ~
-    wget https://raw.githubusercontent.com/sabamdarif/modded-kali/main/setup/customuze-my-desktop
+    wget https://raw.githubusercontent.com/sabamdarif/kali-proot/main/setup/customuze-my-desktop
     mv customuze-my-desktop  /home/${user}/customuze-my-desktop
     chmod +x /home/${user}/customuze-my-desktop
     customize

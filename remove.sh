@@ -9,10 +9,8 @@ W="$(printf '\033[1;37m')"
 
 banner() {
 clear
-printf "\033[33m       █▄▀ ▄▀█ █░░ █   █▀▄▀█ █▀█ █▀▄\033[0m\n"
-printf "\033[36m       █░█ █▀█ █▄▄ █   █░▀░█ █▄█ █▄▀ \033[0m\n"
-printf "\033[32m code by @sabamdrif \033[0m\n"
-printf "\033[32m subscribe my YouTube Channel Hello Android \033[0m\n"
+printf "\033[33m █▄▀ ▄▀█ █░░ █ \033[0m\n"
+printf "\033[36m █░█ █▀█ █▄▄ █  \033[0m\n"
 
 }
 

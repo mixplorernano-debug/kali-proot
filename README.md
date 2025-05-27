@@ -4,9 +4,9 @@
 
 <div align="center">
 
-![GitHub Repo stars](https://img.shields.io/github/stars/sabamdarif/modded-kali)
-![GitHub issues](https://img.shields.io/github/issues/sabamdarif/modded-kali)
-![GitHub License](https://img.shields.io/github/license/sabamdarif/modded-kali)
+![GitHub Repo stars](https://img.shields.io/github/stars/sabamdarif/kali-proot)
+![GitHub issues](https://img.shields.io/github/issues/sabamdarif/kali-proot)
+![GitHub License](https://img.shields.io/github/license/sabamdarif/kali-proot)
 </div>
 
 ### FEATURE:
@@ -26,7 +26,7 @@
 
    - `pkg update -y && pkg upgrade -y`
    - `pkg install wget -y`
-   - `wget https://raw.githubusercontent.com/sabamdarif/modded-kali/main/setup.sh`
+   - `wget https://raw.githubusercontent.com/sabamdarif/kali-proot/main/setup.sh`
    - `chmod +x setup.sh`
    - `bash setup.sh`
    - `kali`
