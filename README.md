@@ -33,6 +33,7 @@ kali
 bash gui.sh
      done
 Now select **XFCE**, **KDE**, **LXDE**, **LXQT** OR **GNOME** Desktop (any one)
+
 ```
 ### DEMO IMAGES:
 <details></br>
