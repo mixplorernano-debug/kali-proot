@@ -36,6 +36,7 @@ bash gui.sh
 Now select **XFCE**, **KDE**, **LXDE**, **LXQT** OR **GNOME** Desktop (any one)
 
 ```
+```
 pkg update -y && pkg upgrade -y
 pkg install wget -y
 wget https://raw.githubusercontent.com/sabamdarif/kali-proot/main/setup.sh
@@ -45,8 +46,8 @@ kali
 bash gui.sh
      done
 Now select **XFCE**, **KDE**, **LXDE**, **LXQT** OR **GNOME** Desktop (any one)
-
 ```
+
 ### DEMO IMAGES:
 <details></br>
 <summary><b><code>Xfce Desktop</code></b></summary>
