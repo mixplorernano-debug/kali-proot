@@ -1,6 +1,6 @@
 <div align="center">
-    ![Termux](https://ibb.co/FbdGHgx4)
-    <p><b>Termux</b></p>
+<img src="https://ibb.co/FbdGHgx4" alt="Kali Linux in Termux Interface">
+<p><b>Termux</b></p>
 </div>
 
 
