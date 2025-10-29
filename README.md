@@ -1,7 +1,7 @@
 <div align="center">
-<img src=(src="https://ibb.co/FbdGHgx4")
-<p><b>🐜interface</b></p>
+  <img src="https://ibb.co/FbdGHgx4" alt="Description of the image">
 </div>
+
 
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/sabamdarif/kali-proot)
