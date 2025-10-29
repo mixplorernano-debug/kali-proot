@@ -1,5 +1,5 @@
 
-<center><img src="./image/demo-xfce.png"></center>
+<center><img src="(https://ibb.co/FbdGHgx4)"></center>
 <p align="center"><b>Easily Install Full Kali Linux Verious Type Of Desktop in Termux</b></p>
 
 <div align="center">
