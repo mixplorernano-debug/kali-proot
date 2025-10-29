@@ -1,5 +1,7 @@
 <div align="center">
-<img src="https://ibb.co/FbdGHgx4" alt="Kali Linux in Termux Interface">
+
+     <img src="https://ibb.co/FbdGHgx4" alt="Termux Interface">
+
 <p><b>Termux</b></p>
 </div>
 
