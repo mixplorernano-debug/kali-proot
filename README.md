@@ -1,12 +1,12 @@
 <div align="center">
-<img src="https://ibb.co/FbdGHgx4">
-<p><b>Termux</b></p>
+<img src=(src="https://ibb.co/FbdGHgx4")
+<p><b>🐜interface</b></p>
 </div>
 
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/sabamdarif/kali-proot)
 ![GitHub issues](https://img.shields.io/github/issues/sabamdarif/kali-proot)
-![GitHub License](https://img.shields.io/github/license/sabamdarif/kali-proot)
+![GitHub License](https://img.shields.io/github/license/sabamdarif/kali-proot
 </div>
 
 ### FEATURE:
