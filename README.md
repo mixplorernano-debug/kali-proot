@@ -1,8 +1,8 @@
-
-<center><img src="(https://ibb.co/FbdGHgx4)"></center>
-<p align="center"><b>Easily Install Full Kali Linux Verious Type Of Desktop in Termux</b></p>
-
 <div align="center">
+    ![Termux](https://ibb.co/FbdGHgx4)
+    <p><b>Termux</b></p>
+</div>
+
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/sabamdarif/kali-proot)
 ![GitHub issues](https://img.shields.io/github/issues/sabamdarif/kali-proot)
